@@ -1,0 +1,26 @@
+*{
+	padding:20;
+	margin:20;
+}
+h1 {
+	text-align:center;
+}
+nav {
+	text-align: right;
+	padding: 20px;
+}
+.text {
+	padding-left:25%;
+}
+.orange {
+	font: 60px/70px arial,sans-serif;
+	color:orange;
+}
+ img {
+ 	float: right;
+ 	padding-right: 35%;
+
+ }
+.main-a {
+	text-align:center;
+}
