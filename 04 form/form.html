@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form</title>
+	<style type="text/css">
+	    body{margin:0; padding: 0;font: 16px "微软雅黑";}
+		.form {display: table; width: 350px;margin: 60px auto;border:2px solid #ddd;}
+		.form fieldset {border:none; padding: 25px;}
+		legend {width: 100%;line-height: 30px;text-indent: 1em;color: #fff;background-color: #2d2d2d;}
+		#userName, #passward {width: 160px;padding: 5px;}
+		#passward {margin-top: 10px;}
+		.tableRow {display: table-row;}
+		.tableRow p {display: table-cell;}
+		.tableRow p:first-child {text-align: right;}
+		.btn {text-align: center;}
+		button {display: inline-block; width: 65%;height: 30px;color: #fff;border:1px solid #ddd; background-color: #2d7dca;margin-top: 10px;}
+
+		.disabled {background-color: #ddd;}
+
+	</style>
+
+</head>
+<body>
+	<form action="" class="form">
+		<legend>登录</legend>
+		<fieldset>
+			
+			<div class="tableRow">
+				<p><label for="userName">用户名：</label></p>
+				<p><input type="text" id="userName" ></p>
+			</div>
+			<div class="tableRow">
+				<p><label for="passward">密码：</label></p>
+				<p><input type="passward" id="passward" ></p>
+			</div>
+			<div class="btn"><button id="login">登录</button></div>
+		</fieldset>
+	</form>
+	<script type="text/javascript">
+		var button = document.getElementById('login');
+		button.onclick = function(){
+			button.disabled = true;
+			button.setAttribute('class','disabled');
+		};
+	</script>
+</body>
+</html>

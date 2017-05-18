@@ -1,0 +1,14 @@
+
+
+.dm_show {
+	width: 80%;
+	height: 500px;
+	border:1px solid #cbcbcb;
+	margin: auto;	
+}
+
+.send {
+	position: relative;
+	top: 20px;
+	text-align: center;
+}
